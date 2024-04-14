@@ -1,7 +1,7 @@
 import { sendFormSuccess, sendFormError, renderingPictureError } from './utils.js';
 import { onClosedImgUploadKey } from './upload-pictures-modal.js';
 
-const URL = 'https://30.javascript.pages.academy/kekstagram/';
+const URL = 'https://30.javascript.htmlacademy.pro/kekstagram/';
 
 const getData = (method) => {
   fetch(`${URL}data`)
